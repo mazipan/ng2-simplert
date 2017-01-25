@@ -50,3 +50,11 @@ export class AppComponent {
 }
 ```
 See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.component.ts
+
+
+## License
+MIT License
+
+
+Hope will usefull for you all.
+Question ? please email : mazipanneh@gmail.com
