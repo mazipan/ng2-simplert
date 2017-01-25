@@ -7,6 +7,8 @@ https://mazipan.github.io/ng2-simplert/
 ## Download
 ```
 npm install ng2-simplert --save
+-- OR --
+yarn add ng2-simplert
 ```
 Or download latest release here : https://github.com/mazipan/ng2-simplert/releases
 
