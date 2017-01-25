@@ -1,6 +1,9 @@
 # ng2-simplert
 Angular 2 Simple Alert Component
 
+## Demo
+https://mazipan.github.io/ng2-simplert/
+
 ## Download
 ```
 npm install ng2-simplert --save
