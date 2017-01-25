@@ -1,7 +1,19 @@
 {
   "name": "ng-simplert",
-  "version": "0.0.0",
+  "description": "Angular 2 Alert Component",
+  "version": "0.0.1",
   "license": "MIT",
+  "author": "Irfan Maulana (https://github.com/mazipan/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazipan/ng-simplert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazipan/ng-simplert/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
@@ -14,7 +26,6 @@
     "pree2e": "webdriver-manager update --standalone false --gecko false",
     "e2e": "protractor"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^2.3.1",
     "@angular/compiler": "^2.3.1",
