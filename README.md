@@ -40,7 +40,7 @@ import { SimplertService } from './simplert.component.service';
   selector: 'app-root',
   template: `
     <button class="open--info" (click)="showPopup('Information!', 'Hey, I am Opened...')">Open Information Alert</button>
-    <SimplertComponent isUseRadius="true"></SimplertComponent>
+    <SimplertComponent [isUseRadius]="true"></SimplertComponent>
   `
 })
 export class AppComponent {
