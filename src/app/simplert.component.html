@@ -1,0 +1,15 @@
+<div class="simplert" role="modal" [ngClass]="{'simplert--shown': isShown === true}" (click)="overlayClick($event)">
+  <div class="simplert__content" [ngClass]="{'simplert__content--radius': isUseRadius}">
+    <div class="simplert__header">
+      <b class="simplert__title">{{title}}</b>
+    </div>
+    <div class="simplert__body">
+      <p>{{message}}</p>
+    </div>
+    <div class="simplert__footer">
+      <button class="simplert__close" [ngClass]="{'simplert__close--radius': isUseRadius}" (click)="closePopup()">
+        Close
+      </button>
+    </div>
+  </div>
+</div>

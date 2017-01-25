@@ -5,10 +5,12 @@ describe('ng-simplert App', function() {
 
   beforeEach(() => {
     page = new NgSimplertPage();
+    page.navigateTo();
   });
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+  it('Read button text', () => {
+    expect(
+      page.getButtonByClassName('open--info')
+    ).toEqual('Open Information Alert');
   });
 });

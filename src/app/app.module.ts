@@ -4,17 +4,23 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { SimplertComponent } from './simplert.component';
+
+import { SimplertService } from './simplert.component.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SimplertComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [
+    SimplertService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

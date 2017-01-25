@@ -2,13 +2,20 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { SimplertComponent } from './simplert.component';
+
+import { SimplertService } from './simplert.component.service';
 
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        SimplertComponent
       ],
+      providers: [
+        SimplertService
+      ]
     });
     TestBed.compileComponents();
   });
@@ -22,6 +29,7 @@ describe('AppComponent', () => {
   it(`should have as title 'app works!'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
+
     expect(app.title).toEqual('app works!');
   }));
 

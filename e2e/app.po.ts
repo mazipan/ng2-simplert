@@ -5,7 +5,8 @@ export class NgSimplertPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getButtonByClassName(className: string) {
+
+    return element(by.css(className)).getText();
   }
 }
