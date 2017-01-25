@@ -1,7 +1,13 @@
 # ng2-simplert
 Angular 2 Simple Alert Component
 
-## Import Module
+## Download
+```
+npm install ng2-simplert --save
+```
+Or download latest release here : https://github.com/mazipan/ng2-simplert/releases
+
+## Module Declaration
 ```typescript
 ....
 import { SimplertComponent } from './simplert.component';
@@ -20,8 +26,9 @@ import { SimplertService } from './simplert.component.service';
   ]
 })
 ```
+See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.module.ts
 
-## Sample usage in component
+## Usage in component
 ```typescript
 ....
 import { SimplertService } from './simplert.component.service';
@@ -42,3 +49,4 @@ export class AppComponent {
   }
 }
 ```
+See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.component.ts
