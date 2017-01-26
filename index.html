@@ -2,13 +2,42 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>NgSimplert</title>
+  <title>Ng-Simplert</title>
   <base href="/ng2-simplert/">
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="styles.bundle.css" rel="stylesheet"/></head>
+<link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head>
 <body>
   <app-root>Loading...</app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-25065548-2', 'auto');
+    ga('send', 'pageview');
+
+    function _trackLink(linkClick, category, action){
+      if(!category) category = 'Link';
+      if(!action) action = 'click';
+      ga('send', {
+        hitType: 'event',
+        eventCategory: category,
+        eventAction: action,
+        eventLabel: linkClick
+      });
+    }
+
+    window.onload = function(){
+      try{
+        _trackLink('demo ng2-simplert', 'demo', 'visit directly');
+      }catch(err){}
+    };
+  </script>
+<script type="text/javascript" src="inline.c2ef3f2c92df60750e71.bundle.js"></script><script type="text/javascript" src="vendor.99e4ce057a4a39e24342.bundle.js"></script><script type="text/javascript" src="main.d51e756c6291a5134ef6.bundle.js"></script></body>
 </html>
