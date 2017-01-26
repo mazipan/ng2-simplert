@@ -1,6 +1,8 @@
 # ng2-simplert
 Angular 2 Simple Alert Component
 
+![Ng2-Simplert](https://raw.githubusercontent.com/mazipan/ng2-simplert/master/screenshoot.PNG)
+
 ## Demo
 https://mazipan.github.io/ng2-simplert/
 
