@@ -60,6 +60,7 @@ See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.compo
 
 #Exposed Method
 You can access this below method from SimplertService :
+
 | Method Name        	        | Parameter             	| Description                                        	|
 |---------------------------	|-----------------------	|---------------------------------------------------	|
 | openPopupBlock            	| title: string         	| Title of alert (can be empty)                      	|
