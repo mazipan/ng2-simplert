@@ -4,6 +4,15 @@
   "version": "0.0.5",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
+  "homepage": "https://mazipan.github.io/ng-simplert/",
+  "keywords": [
+    "alert",
+    "angular",
+    "angular 2",
+    "ng2",
+    "angular alert",
+    "angular 2 alert"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mazipan/ng-simplert.git"
