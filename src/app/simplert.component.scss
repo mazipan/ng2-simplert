@@ -88,14 +88,8 @@
 
       @include appearance(none);
 
-
       &--radius{
         @include border-radius(.3em);
-      }
-
-      &:hover
-      {
-        background: lighten(#068AC9, 10%);
       }
     }
 }
