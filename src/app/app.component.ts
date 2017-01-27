@@ -23,7 +23,7 @@ export class AppComponent {
   constructor(private _simplertService: SimplertService){}
 
   showPopup(title: string, message: string){
-    this._simplertService.openPopupBlock(true, title, message);
+    this._simplertService.openPopupBlock(title, message);
   }
 
   modifyColor(hexColor: string){

@@ -24,15 +24,15 @@ export class SimplertService {
   type$ = this._typeSource.asObservable();
   colorBtn$ = this._colorBtnSource.asObservable();
 
-  openPopupBlock(booleanParam: boolean, title: string, message: string){
-    this._isShownSource.next(booleanParam);
+  openPopupBlock(title: string, message: string){
+    this._isShownSource.next(true);
     this._titleSource.next(title);
     this._messageSource.next(message);
     this._colorBtnSource.next(this.DEFAULT_BTN_COLOR);
   }
 
-  openPopupBlockWithType(booleanParam: boolean, title: string, message: string, type: string){
-    this._isShownSource.next(booleanParam);
+  openPopupBlockWithType(title: string, message: string, type: string){
+    this._isShownSource.next(true);
     this._titleSource.next(title);
     this._messageSource.next(message);
     this._typeSource.next(type);

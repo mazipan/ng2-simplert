@@ -52,12 +52,25 @@ export class AppComponent {
   constructor(private _simplertService: SimplertService){}
 
   showPopup(title: string, message: string){
-    this._simplertService.openPopupBlock(true, title, message);
+    this._simplertService.openPopupBlock(title, message);
   }
 }
 ```
 See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.component.ts
 
+#Exposed Method
+| Method Name        	        | Parameter             	| Description                                        	|
+|---------------------------	|-----------------------	|---------------------------------------------------	|
+| openPopupBlock            	| title: string         	| Title of alert (can be empty)                      	|
+|                    	        | message: string  	      | Message of alert (can be HTML syntax)              	|
+| openPopupBlockWithType     	| title: string         	| Title of alert (can be empty)                      	|
+|                    	        | message: string  	      | Message of alert (can be HTML syntax)              	|
+|                    	        | type: string  	        | info, warning, error (can be empty)                	|
+| changeShown     	          | booleanParam: boolean  	| true : show, false : hide                          	|
+| setTitle     	              | title: string  	        | Title of alert (can be empty)                      	|
+| setMessage     	            | message: string  	      | Message of alert (can be HTML syntax)              	|
+| setType     	              | type: string  	        | info, warning, error (can be empty)                	|
+| setColorBtn     	          | btnColor: string      	| string hex color                                  	|
 
 ## License
 MIT License
