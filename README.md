@@ -1,5 +1,6 @@
 # ng2-simplert
 Angular 2 Simple Alert Component (SweetAlert Inspired)
+
 We use icon from [SweetAlert](https://github.com/t4t5/sweetalert)
 
 ![Ng2-Simplert](https://raw.githubusercontent.com/mazipan/ng2-simplert/master/screenshoot.PNG)
