@@ -13,28 +13,29 @@ export class SimplertComponent implements OnInit, OnDestroy{
 
   // api exposed
   @Input() isUseRadius: boolean = false;
+  @Input() isUseIcon  : boolean = false;
 
   // internal variable
-  isShown: boolean;
-  title: string = "";
-  message: string;
-  type: string = "";
+  isShown : boolean;
+  title   : string = "";
+  message : string;
+  type    : string = "";
   colorBtn: string = "#068AC9";
 
   // subscriber to service
-  subscriptionShown: Subscription;
-  subscriptionTitle: Subscription;
-  subscriptionMessage: Subscription;
-  subscriptionType: Subscription;
+  subscriptionShown   : Subscription;
+  subscriptionTitle   : Subscription;
+  subscriptionMessage : Subscription;
+  subscriptionType    : Subscription;
   subscriptionColorBtn: Subscription;
 
   constructor(private _simplertService:SimplertService){}
 
   ngOnInit(){
-    this.subscriptionShown = this._simplertService.isShown$.subscribe(res => this.isShown = res);
-    this.subscriptionTitle = this._simplertService.title$.subscribe(res => this.title = res);
-    this.subscriptionMessage = this._simplertService.message$.subscribe(res => this.message = res);
-    this.subscriptionType = this._simplertService.type$.subscribe(res => this.type = res);
+    this.subscriptionShown    = this._simplertService.isShown$.subscribe(res => this.isShown = res);
+    this.subscriptionTitle    = this._simplertService.title$.subscribe(res => this.title = res);
+    this.subscriptionMessage  = this._simplertService.message$.subscribe(res => this.message = res);
+    this.subscriptionType     = this._simplertService.type$.subscribe(res => this.type = res);
     this.subscriptionColorBtn = this._simplertService.colorBtn$.subscribe(res => this.colorBtn = res);
   }
 

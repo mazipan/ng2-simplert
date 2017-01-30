@@ -8,26 +8,27 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 export class SimplertService {
 
   private readonly DEFAULT_BTN_COLOR: string = "#068AC9";
-  private _isShownSource = new BehaviorSubject<boolean>(false);
-  private _titleSource = new BehaviorSubject<string>("");
-  private _messageSource = new BehaviorSubject<string>("");
+  private readonly DEFAULT_TYPE: string = "info";
+  private _isShownSource     = new BehaviorSubject<boolean>(false);
+  private _titleSource       = new BehaviorSubject<string>("");
+  private _messageSource     = new BehaviorSubject<string>("");
   /*
-  * type enum : info, warning, error
+  * type enum : info (default), success, warning, error
   * */
-  private _typeSource = new BehaviorSubject<string>("");
-  private _colorBtnSource = new BehaviorSubject<string>("#068AC9");
+  private _typeSource         = new BehaviorSubject<string>("info");
+  private _colorBtnSource     = new BehaviorSubject<string>("#068AC9");
 
-
-  isShown$ = this._isShownSource.asObservable();
-  title$ = this._titleSource.asObservable();
-  message$ = this._messageSource.asObservable();
-  type$ = this._typeSource.asObservable();
-  colorBtn$ = this._colorBtnSource.asObservable();
+  isShown$      = this._isShownSource.asObservable();
+  title$        = this._titleSource.asObservable();
+  message$      = this._messageSource.asObservable();
+  type$         = this._typeSource.asObservable();
+  colorBtn$     = this._colorBtnSource.asObservable();
 
   openPopupBlock(title: string, message: string){
     this._isShownSource.next(true);
     this._titleSource.next(title);
     this._messageSource.next(message);
+    // reset to default setting
     this._colorBtnSource.next(this.DEFAULT_BTN_COLOR);
   }
 
@@ -35,7 +36,13 @@ export class SimplertService {
     this._isShownSource.next(true);
     this._titleSource.next(title);
     this._messageSource.next(message);
-    this._typeSource.next(type);
+    if(type === ''){
+      this._typeSource.next(this.DEFAULT_TYPE);
+    }else{
+      this._typeSource.next(type);
+    }
+    // reset to default setting
+    this._colorBtnSource.next(this.DEFAULT_BTN_COLOR);
   }
 
   changeShown(booleanParam: boolean){

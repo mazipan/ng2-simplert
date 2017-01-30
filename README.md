@@ -1,5 +1,6 @@
 # ng2-simplert
-Angular 2 Simple Alert Component
+Angular 2 Simple Alert Component (SweetAlert Inspired)
+We use icon from [SweetAlert](https://github.com/t4t5/sweetalert)
 
 ![Ng2-Simplert](https://raw.githubusercontent.com/mazipan/ng2-simplert/master/screenshoot.PNG)
 
@@ -58,7 +59,15 @@ export class AppComponent {
 ```
 See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.component.ts
 
-#Exposed Method
+## Exposed Attribute
+You can add this attribute below in <SimplertComponent> :
+
+| Attribute         	        | Parameter             	| Description                                        	|
+|---------------------------	|-----------------------	|---------------------------------------------------	|
+| [isUseRadius]         	    | booleanParam: boolean   | true : will use radius, false : not use radius     	|
+| [isUseIcon]         	      | booleanParam: boolean   | true : will use icon, false : not use icon         	|
+
+## Exposed Method
 You can access this below method from SimplertService :
 
 | Method Name        	        | Parameter             	| Description                                        	|
@@ -67,12 +76,12 @@ You can access this below method from SimplertService :
 |                    	        | message: string  	      | Message of alert (can be HTML syntax)              	|
 | openPopupBlockWithType     	| title: string         	| Title of alert (can be empty)                      	|
 |                    	        | message: string  	      | Message of alert (can be HTML syntax)              	|
-|                    	        | type: string  	        | info, warning, error (can be empty)                	|
+|                    	        | type: string  	        | info (default), success, warning, error           	|
 | changeShown     	          | booleanParam: boolean  	| true : show, false : hide                          	|
 | setTitle     	              | title: string  	        | Title of alert (can be empty)                      	|
 | setMessage     	            | message: string  	      | Message of alert (can be HTML syntax)              	|
-| setType     	              | type: string  	        | info, warning, error (can be empty)                	|
-| setColorBtn     	          | btnColor: string      	| string hex color                                  	|
+| setType     	              | type: string  	        | info (default), success, warning, error           	|
+| setColorBtn     	          | btnColor: string      	| string hex color (default: #068AC9)                	|
 
 ## License
 MIT License

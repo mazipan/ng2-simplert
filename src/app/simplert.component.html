@@ -2,6 +2,36 @@
   <div class="simplert__content" [ngClass]="{'simplert__content--radius': isUseRadius}">
     <div class="simplert__header">
 
+      <div *ngIf="isUseIcon">
+        <div class="simplert__icon simplert__icon--info" *ngIf="type === 'info'">
+          <div class="simplert__line simplert__line--info">
+          </div>
+          <div class="simplert__line simplert__line--info-2">
+          </div>
+        </div>
+
+        <div class="simplert__icon simplert__icon--success" *ngIf="type === 'success'">
+          <div class="simplert__line simplert__line--success">
+          </div>
+          <div class="simplert__line simplert__line--success-2">
+          </div>
+        </div>
+
+        <div class="simplert__icon simplert__icon--warning" *ngIf="type === 'warning'">
+          <div class="simplert__line simplert__line--warning">
+          </div>
+          <div class="simplert__line simplert__line--warning-2">
+          </div>
+        </div>
+
+        <div class="simplert__icon simplert__icon--error" *ngIf="type === 'error'">
+          <div class="simplert__line simplert__line--error">
+          </div>
+          <div class="simplert__line simplert__line--error-2">
+          </div>
+        </div>
+      </div>
+
       <b class="simplert__title" *ngIf="title !== ''">{{title}}</b>
 
     </div>
