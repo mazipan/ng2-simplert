@@ -1,17 +1,17 @@
 {
   "name": "ng2-simplert",
-  "description": "Angular 2 Alert Component",
-  "version": "0.0.6",
+  "description": "Angular 2 Alert Component (SweetAlert Inspired)",
+  "version": "0.0.7",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "homepage": "https://mazipan.github.io/ng-simplert/",
   "keywords": [
-    "alert",
-    "angular",
-    "angular 2",
-    "ng2",
+    "ng2 alert",
+    "ng2 sweet alert",
     "angular alert",
-    "angular 2 alert"
+    "angular sweet alert",
+    "angular 2 alert",
+    "angular 2 sweet alert"
   ],
   "repository": {
     "type": "git",
