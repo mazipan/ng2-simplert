@@ -4,7 +4,7 @@
   "version": "0.0.8",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
-  "homepage": "https://mazipan.github.io/ng-simplert/",
+  "homepage": "https://mazipan.github.io/ng2-simplert/",
   "keywords": [
     "ng2 alert",
     "ng2 sweet alert",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mazipan/ng-simplert.git"
+    "url": "https://github.com/mazipan/ng2-simplert.git"
   },
   "bugs": {
-    "url": "https://github.com/mazipan/ng-simplert/issues"
+    "url": "https://github.com/mazipan/ng2-simplert/issues"
   },
   "engines": {
     "node": ">=4"
