@@ -1,6 +1,12 @@
 # ng2-simplert
 Angular 2 Simple Alert Component (SweetAlert Inspired)
 
+[![License](https://img.shields.io/github/license/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert) 
+[![Github Issue](https://img.shields.io/github/issues/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert/issues) 
+[![GitHub Fork](https://img.shields.io/github/forks/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert/network) 
+[![GitHub Star](https://img.shields.io/github/stars/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert/stargazers) 
+[![GitHub Contributors](https://img.shields.io/github/contributors/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert/network/members)
+
 We use icon from [SweetAlert](https://github.com/t4t5/sweetalert)
 
 ![Ng2-Simplert](https://raw.githubusercontent.com/mazipan/ng2-simplert/master/screenshoot.PNG)
