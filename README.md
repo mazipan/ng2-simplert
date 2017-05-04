@@ -25,8 +25,8 @@ Or download latest release here : https://github.com/mazipan/ng2-simplert/releas
 ## Module Declaration
 ```typescript
 ....
-import { SimplertComponent } from './simplert.component';
-import { SimplertService } from './simplert.component.service';
+import { SimplertComponent } from '~ng2-simplert/src/app/simplert.component';
+import { SimplertService } from '~ng2-simplert/src/app/simplert.component.service';
 ...
 @NgModule({
   declarations: [
@@ -46,7 +46,7 @@ See here : https://github.com/mazipan/ng2-simplert/blob/master/src/app/app.modul
 ## Usage in component
 ```typescript
 ....
-import { SimplertService } from './simplert.component.service';
+import { SimplertService } from '~ng2-simplert/src/app/simplert.component.service';
 ...
 @Component({
   selector: 'app-root',
