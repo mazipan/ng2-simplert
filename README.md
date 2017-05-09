@@ -7,6 +7,10 @@ Angular 2 Simple Alert Component (SweetAlert Inspired)
 [![GitHub Star](https://img.shields.io/github/stars/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert/stargazers) 
 [![GitHub Contributors](https://img.shields.io/github/contributors/mazipan/ng2-simplert.svg?maxAge=3600)](https://github.com/mazipan/ng2-simplert/network/members)
 
+
+[![version](https://img.shields.io/npm/v/ng2-simplert.svg?maxAge=3600)](https://www.npmjs.com/package/ng2-simplert)
+[![downloads](https://img.shields.io/npm/dt/ng2-simplert.svg?maxAge=3600)](https://www.npmjs.com/package/ng2-simplert) 
+
 We use icon from [SweetAlert](https://github.com/t4t5/sweetalert)
 
 ![Ng2-Simplert](https://raw.githubusercontent.com/mazipan/ng2-simplert/master/screenshoot.PNG)
@@ -15,6 +19,8 @@ We use icon from [SweetAlert](https://github.com/t4t5/sweetalert)
 https://mazipan.github.io/ng2-simplert/
 
 ## Download
+[![npmjs](https://img.shields.io/badge/download-npmjs-red.svg?maxAge=3600)](https://www.npmjs.com/package/ng2-simplert) 
+[![yarnpkg](https://img.shields.io/badge/download-yarn-blue.svg?maxAge=3600)](https://yarnpkg.com/en/package/ng2-simplert)
 ```
 npm install ng2-simplert --save
 -- OR --
